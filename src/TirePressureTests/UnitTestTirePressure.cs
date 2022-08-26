@@ -1,3 +1,5 @@
+using TDDMicroExercises.TirePressureMonitoringSystem;
+
 namespace TestTirePressureTests
 {
     public class Tests
