@@ -1,4 +1,4 @@
-namespace TestTirePressure
+namespace TestTirePressureTests
 {
     public class Tests
     {

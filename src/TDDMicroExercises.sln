@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDMicroExercises", "TDDMicroExercises.csproj", "{BBCF3C67-8E31-48E3-AD2E-8C605E2E07BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTirePressure", "..\TestTirePressure\TestTirePressure.csproj", "{5FAA27B6-4DEF-4C72-8833-F67F4D887FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TirePressureTests", "TirePressureTests\TirePressureTests.csproj", "{755D4F14-36B0-4A2A-90F4-6721634755E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{BBCF3C67-8E31-48E3-AD2E-8C605E2E07BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBCF3C67-8E31-48E3-AD2E-8C605E2E07BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBCF3C67-8E31-48E3-AD2E-8C605E2E07BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5FAA27B6-4DEF-4C72-8833-F67F4D887FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5FAA27B6-4DEF-4C72-8833-F67F4D887FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5FAA27B6-4DEF-4C72-8833-F67F4D887FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5FAA27B6-4DEF-4C72-8833-F67F4D887FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755D4F14-36B0-4A2A-90F4-6721634755E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755D4F14-36B0-4A2A-90F4-6721634755E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755D4F14-36B0-4A2A-90F4-6721634755E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755D4F14-36B0-4A2A-90F4-6721634755E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
