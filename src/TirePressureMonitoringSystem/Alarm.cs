@@ -2,12 +2,17 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
 {
     public class Alarm
     {
+        private readonly Sensor _sensor;
+        private double _psiPressureValue;
+        private bool _alarmOn = false;
+
         public const double LowPressureThreshold = 17;
         public const double HighPressureThreshold = 21;
 
-        readonly Sensor _sensor = new Sensor();
-        double _psiPressureValue;
-        bool _alarmOn = false;
+        public Alarm()
+        {
+            _sensor = new Sensor();
+        }
 
         public void Check()
         {
